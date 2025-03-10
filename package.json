@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build && echo tjk.hazedoriginals.com > build/CNAME",
     "deploy": "gh-pages -d build",
-    "update": "git add . && git commit -m \"$1\" && git push origin master && npm run deploy --"
+    "update": "git add . && git commit -m \"$1\" && git push origin master && npm run deploy"
   },
   "eslintConfig": {
     "extends": [

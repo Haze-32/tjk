@@ -117,7 +117,7 @@ function TrackerCalendar() {
 
   return (
     <div className="tracker-container">
-      <h1>Tracker Calendar (Mar 10 / Jun 26)</h1>
+      <h1>Tracker Calendar (Mar 10 --- Jun 26)</h1>
       <div id="calendar">{generateCalendar()}</div>
     </div>
   );
